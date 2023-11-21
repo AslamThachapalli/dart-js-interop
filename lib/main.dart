@@ -69,8 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 OutlinedButton(
                   onPressed: () {
                     if (_formKey.currentState!.validate()) {
-                      // todo: Call the Encryption logic
-                      print("do encrypt");
+                      // todo 2: Call the Encryption logic
                     }
                   },
                   child: const Text("Encrypt"),

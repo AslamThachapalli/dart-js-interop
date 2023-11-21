@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'js_interop.dart';
+
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
@@ -69,8 +71,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 OutlinedButton(
                   onPressed: () {
                     if (_formKey.currentState!.validate()) {
-                      // todo: Call the Encryption logic
-                      print("do encrypt");
+                      var encVal = CryptoEnc().encrypt(
+                        ToEncrypt(
+                          value: _controller.text,
+                        ),
+                      );
+
+                      setState(() => encryptedString = encVal.toString());
                     }
                   },
                   child: const Text("Encrypt"),

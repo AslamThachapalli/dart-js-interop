@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'js_interop.dart';
+import 'encrypt.dart' if (dart.library.js) 'js_interop.dart';
 
 void main() => runApp(const MyApp());
 

@@ -1,16 +1,8 @@
 # dart_js_interop
 
-A new Flutter project.
+This repo acts as reference for the dart-js interoperability tutorial that is available in medium.<br/>
+[Click Here](https://medium.com/@aslam.develop912/utilizing-js-library-for-flutter-web-c683c590927f) for the tutorial.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- The repo has two branches: `starter` and `final`
+  - `starter` is for the starter project.
+  - `final` is for the complete project.
